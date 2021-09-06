@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort</title>
+</head>
+<body">
+    <script>
+        var n = parseInt(prompt("Enter n value:"))
+        var names = []
+        var i = 0
+        while(i<n)
+        {
+            var value = prompt("Enter value:")
+            names.push(value)
+            i++
+        }
+        names.sort()
+         document.write("Ascending order\n:"+names)
+        document.write("\nDescending order\n:"+names.reverse())
+    </script>
+</body>
+</html>
